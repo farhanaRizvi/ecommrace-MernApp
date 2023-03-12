@@ -1,0 +1,31 @@
+*{
+ margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;   
+}
+
+.profile-icon{
+width: 5rem;
+height: 5rem;
+
+}
+.user{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+   
+}
+.user-second{
+    display: inline-block;
+    padding: 50px;
+    
+    border: 2px solid black;
+    border-radius: 50px;
+   
+}
+.form-f{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

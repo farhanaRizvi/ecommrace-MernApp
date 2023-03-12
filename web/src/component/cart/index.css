@@ -1,0 +1,86 @@
+* {
+  margin: 0%;
+
+  padding: 0%;
+}
+
+.main-contanier {
+  display: flex;
+  gap: 5vh;
+}
+
+.main-div {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20vh;
+}
+.main-contanier1 {
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  gap: 5vh;
+}
+
+.image-main {
+  width: 20vh;
+  height: 20vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 30vh;
+}
+
+.amount {
+  border: 2px solid black;
+  border-radius: 20px;
+  max-width: 30vh;
+  max-height: 18vh;
+  padding: 20px;
+}
+.name-discri-contanier {
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.price-qty-contanier {
+  font-weight: 700;
+  display: flex;
+  gap: 5vh;
+}
+.btn-update {
+  display: flex;
+}
+.btn-updatemain {
+  border: none;
+  background-color: white;
+}
+.del-btn {
+  border: none;
+
+  background-color: white;
+  color: red;
+}
+
+.count {
+  width: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.chackout-btn {
+  border-radius: 20px;
+  background-color: #b5ed7d;
+  color: white;
+  font-weight: bolder;
+  padding: 5px;
+}
